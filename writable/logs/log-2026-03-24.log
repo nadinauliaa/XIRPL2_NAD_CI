@@ -1,0 +1,13 @@
+CRITICAL - 2026-03-24 15:02:53 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "edit_view.php"
+[Method: GET, Route: barang/edit/8]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(226): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('edit_view.php')
+ 2 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('edit_view', [], true)
+ 3 APPPATH\Controllers\Barang.php(52): view('edit_view', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Barang->edit('8')
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\XIRPL2_NAD_CI\\public\\index.php')
